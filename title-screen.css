@@ -1,0 +1,11 @@
+.project-art { --cover-color: #e9b7a1; --cover-accent: #ff795d; --cover-highlight: #d3f45a; background: var(--cover-color); }
+.project-art .art-moon::after { background: var(--cover-color); box-shadow: 92px 13px 0 7px var(--cover-color), 52px 110px 0 4px var(--cover-color); }
+.project-art .art-figure::before { background: var(--cover-accent); }
+.project-art .art-figure span { background: var(--cover-highlight); }
+.project-art .art-title b { color: var(--cover-highlight); }
+.project-art .art-coordinate { white-space: pre-line; }
+body[data-theme="night"] .project-art { background: var(--cover-color); }
+.cover-editor { background: var(--paper-deep); border: 1px solid var(--line); display: grid; gap: 11px; margin-top: 8px; padding: 13px; }
+.cover-editor textarea { background: transparent; border: 1px solid var(--line); color: var(--ink); font: 12px/1.7 var(--sans); min-height: 52px; padding: 8px 10px; resize: vertical; width: 100%; }
+.editor-card-actions { align-items: center; display: inline-flex; gap: 12px; }
+.set-main-project.is-main { background: var(--lime); color: var(--ink); padding: 4px 7px; }
